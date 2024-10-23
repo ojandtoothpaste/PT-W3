@@ -23,7 +23,7 @@ public class CodingProject {
 		double average = (double) sum / ages2.length;
 		System.out.println(average);
 		
-		//Array of names
+		//2. Array of names
 		String[] names = {"Gabe", "Tommy", "Leo", "Dana", "Buck", "Rob"};
 		
 		//Calculate the average number of letters per name
