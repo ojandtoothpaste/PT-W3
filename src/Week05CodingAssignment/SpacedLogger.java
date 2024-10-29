@@ -2,6 +2,7 @@ package Week05CodingAssignment;
 
 public class SpacedLogger implements Logger {
 	
+	// Method to add spaces between each character
 	private String addSpaces(String message) {
         return message.chars()
                       .mapToObj(c -> String.valueOf((char)c) + " ")
